@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="231" started-at="2021-01-19T13:53:26Z" finished-at="2021-01-19T13:53:27Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="231" started-at="2021-01-19T13:53:26Z" finished-at="2021-01-19T13:53:27Z">
+      <class name="WANDisco.WANDisco.TestVolume">
+        <test-method status="PASS" signature="sphere1()[pri:1, instance:WANDisco.WANDisco.TestVolume@6767c1fc]" name="sphere1" duration-ms="45" started-at="2021-01-19T13:53:27Z" finished-at="2021-01-19T13:53:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sphere1 -->
+        <test-method status="PASS" signature="sphere2()[pri:2, instance:WANDisco.WANDisco.TestVolume@6767c1fc]" name="sphere2" duration-ms="10" started-at="2021-01-19T13:53:27Z" finished-at="2021-01-19T13:53:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sphere2 -->
+        <test-method status="PASS" signature="cube1()[pri:3, instance:WANDisco.WANDisco.TestVolume@6767c1fc]" name="cube1" duration-ms="7" started-at="2021-01-19T13:53:27Z" finished-at="2021-01-19T13:53:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cube1 -->
+        <test-method status="PASS" signature="cube2()[pri:4, instance:WANDisco.WANDisco.TestVolume@6767c1fc]" name="cube2" duration-ms="4" started-at="2021-01-19T13:53:27Z" finished-at="2021-01-19T13:53:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cube2 -->
+        <test-method status="PASS" signature="tetrahedron1()[pri:5, instance:WANDisco.WANDisco.TestVolume@6767c1fc]" name="tetrahedron1" duration-ms="4" started-at="2021-01-19T13:53:27Z" finished-at="2021-01-19T13:53:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tetrahedron1 -->
+        <test-method status="PASS" signature="tetrahedron2()[pri:6, instance:WANDisco.WANDisco.TestVolume@6767c1fc]" name="tetrahedron2" duration-ms="12" started-at="2021-01-19T13:53:27Z" finished-at="2021-01-19T13:53:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tetrahedron2 -->
+      </class> <!-- WANDisco.WANDisco.TestVolume -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
