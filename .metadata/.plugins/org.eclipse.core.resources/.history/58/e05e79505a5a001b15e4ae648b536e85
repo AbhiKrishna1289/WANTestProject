@@ -1,0 +1,26 @@
+package WANDisco.WANDisco;
+
+import org.testng.Assert;
+import org.testng.annotations.Test;
+
+import com.volume.Volume;
+
+public class TestVolume {
+public Volume v=new Volume();
+//Testing volume with different values
+//1.A sphere of radius 1 has volume 4.19
+@Test(priority=1)
+public void sphere1()
+{
+	System.out.println("Volume of sphere with radius 1 : "+v.sphere(1));
+	System.out.println("Volume of sphere with radius 1 upto 2 decimal points"+String.format( "%.2f",v.sphere(1)));
+	Assert.assertEquals(String.format( "%.2f",v.sphere(1)),String.format( "%.2f",4.19));  
+}
+//2.A sphere of radius 5 has volume 523.6
+public void sphere2()
+{
+	System.out.println("Volume of sphere with radius 1 : "+v.sphere(5));
+	System.out.println("Volume of sphere with radius 1 upto 2 decimal points"+String.format( "%.2f",v.sphere(5)));
+	Assert.assertEquals(String.format( "%.2f",v.sphere(1)),String.format( "%.2f",4.19));  
+}
+}

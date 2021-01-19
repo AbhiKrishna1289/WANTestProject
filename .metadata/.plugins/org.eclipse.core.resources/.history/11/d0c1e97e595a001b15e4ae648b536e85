@@ -1,0 +1,21 @@
+package WANDisco.WANDisco;
+
+import org.testng.Assert;
+import org.testng.annotations.Test;
+
+import com.volume.Volume;
+
+public class TestVolume {
+public Volume v=new Volume();
+//Testing volume with different values
+@Test(priority=1)
+public void sphere()
+{
+	//1.A sphere of radius 1 has volume 4.19
+	//2.A sphere of radius 5 has volume 523.6
+	
+	System.out.println(v.sphere(1));
+	String.format( "%.2f",v.sphere(1);
+	Assert.assertEquals(v.sphere(1),4.19);  
+}
+}

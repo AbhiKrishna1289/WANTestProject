@@ -1,0 +1,60 @@
+package com.volume;
+import java.util.Scanner;
+
+public class Volume {
+	//Finding volume of Sphere
+	public static double sphere(double r)
+	{
+		double PI=3.14;
+		double volume=(float)4/(float)3*PI*r*r*r;
+		return(volume);
+
+	}
+	//Finding volume of Cube
+	public static double cube(double l)
+	{
+		return (l*l*l);
+
+	}
+	//Finding volume of Regular Tetrahedron
+	public static double regularTetrahedron(double a)
+	{
+		return((float)(Math.sqrt(2)*a*a*a)/(float)12);
+
+	}
+	public static void main(String arg[])
+	{
+		Scanner s=new Scanner(System.in);
+		System.out.println("Please select an option for find volume of: "
+				+ "\n 0.Exit"
+				+ "\n 1.Sphere "
+				+ "\n 2.Cube"
+				+ "\n 3.Tetrahedron"
+				);
+		int option=s.nextInt();
+		while(option)
+		{
+			switch(option)
+			{
+
+			case 1:
+				System.out.println("Enter the radius of sphere : \n");
+				double radius=s.nextDouble();
+				System.out.println("Volume of Sphere : "+String.format( "%.2f",sphere(radius)));
+				break;
+			case 2:
+				System.out.println("Enter  length of cube : \n");
+				double length=s.nextDouble();
+				System.out.println("Volume of Cube : "+String.format( "%.2f",cube(length)));
+				break;
+			case 3:
+				System.out.println("Enter the area of tetrahedron");
+				Double area=s.nextDouble();
+				System.out.println("Volume of Regular Tetrahedron :"+regularTetrahedron(area));
+			default:
+				System.out.println("Invalid entry");
+				break;
+			}
+		}
+	}
+}

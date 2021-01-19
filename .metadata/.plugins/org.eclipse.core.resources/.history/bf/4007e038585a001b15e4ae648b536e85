@@ -1,0 +1,12 @@
+package WANDisco.WANDisco;
+
+import org.testng.annotations.Test;
+
+public class TestVolume {
+//Testing volume with different values
+@Test(priority=1)
+public void sphere()
+{
+	
+}
+}

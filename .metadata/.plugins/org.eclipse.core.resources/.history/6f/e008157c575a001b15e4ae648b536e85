@@ -1,0 +1,6 @@
+package WANDisco.WANDisco;
+
+public class TestVolume {
+//Testing volume with different values
+@Test
+}

@@ -1,0 +1,35 @@
+package com.volume;
+import java.util.Scanner;
+
+public class Volume {
+	//Finding volume of Sphere
+	public static double sphere(double r)
+	{
+		double PI=3.14;
+		double volume=(float)4/(float)3*PI*r*r*r;
+		return(volume);
+
+	}
+	//Finding volume of Cube
+	public static double cube(double length)
+	{
+		return 0;
+
+	}
+	//Finding volume of Regular Tetrahedron
+	public double regularTetrahedron()
+	{
+		return 0;
+
+	}
+	public static void main(String arg[])
+	{
+		Scanner s=new Scanner(System.in);
+		System.out.println("Enter the radius of sphere : \n");
+		double radius=s.nextDouble();
+		System.out.println("Volume of Sphere : "+sphere(radius));
+		System.out.println("Enter the length of cube : \n");
+		double length=s.nextDouble();
+		System.out.println("Volume of Cube : "+cube(length));
+	}
+}
